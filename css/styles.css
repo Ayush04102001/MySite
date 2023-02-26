@@ -1,0 +1,147 @@
+body{
+    font-family: "Montserrat";
+}
+/* title */
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* navbar */
+.navbar-brand{
+    font-size: 30px;
+    font-family: "Ubuntu";
+}
+/* title-row */
+.title-button{
+    margin-top: 50px;;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 50px;
+    position: relative;
+    
+}
+
+
+/* features section*/
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    
+}
+.icons{
+    font-size: 60px;
+    color: #ef8172;
+    margin-bottom: 30px;
+} 
+#features h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#features p{
+   color: #8f8f8f;
+}
+.icons:hover{
+    color: #ff4c68;
+    transition: 0.3s;
+}
+
+
+/* testimononials section */
+
+#testimonials{
+    text-align: center;
+    background-color:#ef8172 ;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#testimonials h2{
+    font-weight: bold;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+     padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 8%;
+    text-align: center;
+}
+.pricing-card{
+    padding: 2% ;
+}
+#pricing h2,h3{
+    font-weight: bold;
+}
+
+/* responsive */
+@media(max-width:1050px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    margin-top: 3%;
+    
+}
+.logo{
+    padding: 5px;
+    
+}
+#footer p{
+    font-size: 13px;
+    color: #8f8f8f;
+    padding-top: 1%;
+}
